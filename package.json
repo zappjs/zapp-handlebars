@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "devDependencies": {
-    "@zappjs/core": "^2.0.0-alpha",
-    "typescript": "^3.2.1"
+    "@types/pluralize": "0.0.29",
+    "@zappjs/core": "^2.0.0-alpha.1",
+    "typescript": "^3.5.2"
   },
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "handlebars": "^4.1.2"
+    "change-case": "^3.1.0",
+    "handlebars": "^4.1.2",
+    "pluralize": "^8.0.0"
   }
 }
